@@ -5,7 +5,13 @@ function App() {
   return (
     <div className="Add">
       <React.StrictMode>
-        <Routing/>
+        <div className="wrapper">
+
+          <main className="main">
+            <Routing />
+          </main>
+          
+        </div>
       </React.StrictMode>
     </div>
   );
